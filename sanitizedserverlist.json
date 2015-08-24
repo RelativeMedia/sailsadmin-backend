@@ -1,0 +1,5634 @@
+[
+  {
+    "hostname": "SRPLBO00",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "BOP",
+    "component": "Business Objects",
+    "aliases": [
+      "sapbopdb "
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLBO01",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "BOP",
+    "component": "Business Objects",
+    "aliases": [
+      "sapbopdg"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLBO02",
+    "location": "ISB",
+    "osVersion": "RHEL 5.10",
+    "tier": "Prod",
+    "sid": "BOP",
+    "component": "Business Objects",
+    "aliases": [
+      "sapbopw1"
+    ],
+    "cpu": 2,
+    "memory": 8,
+    "swap": 10,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBO03",
+    "location": "ISB",
+    "osVersion": "RHEL 5.10",
+    "tier": "Prod",
+    "sid": "BOP",
+    "component": "Business Objects",
+    "aliases": [
+      "sapbopp1"
+    ],
+    "cpu": 8,
+    "memory": 48,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBO04",
+    "location": "IBB",
+    "osVersion": "RHEL 5.10",
+    "tier": "Prod",
+    "sid": "BOP",
+    "component": "Business Objects",
+    "aliases": [
+      "sapbopp2"
+    ],
+    "cpu": 2,
+    "memory": 8,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBO05",
+    "location": "ISB",
+    "osVersion": "Win 2008 R2",
+    "tier": "Prod",
+    "sid": "BOP",
+    "component": "Business Objects",
+    "aliases": [
+      "none"
+    ],
+    "cpu": 2,
+    "memory": 4,
+    "swap": 3,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBW00",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "BWP",
+    "component": "BW",
+    "aliases": [
+      "sapbwpdb"
+    ],
+    "cpu": 4,
+    "memory": 24,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLBW01",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "BWP",
+    "component": "BW",
+    "aliases": [
+      "sapbwpdg"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLBW02",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "BWP",
+    "component": "BW",
+    "aliases": [
+      "sapbwpm1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLBW03",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "BWP",
+    "component": "BW",
+    "aliases": [
+      "sapbwpd1"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLBW04",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "BWP",
+    "component": "BW",
+    "aliases": [
+      "sapbwpd2"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLBW05",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "BWP",
+    "component": "BW",
+    "aliases": [
+      "sapbwpd3"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC00",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "ECP",
+    "component": "ECC",
+    "aliases": [
+      "sapecpdb"
+    ],
+    "cpu": 4,
+    "memory": 24,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLEC01",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "ECP",
+    "component": "ECC",
+    "aliases": [
+      "sapecpdg"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLEC02",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "ECP",
+    "component": "ECC",
+    "aliases": [
+      "sapecpm1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLEC03",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "ECP",
+    "component": "ECC",
+    "aliases": [
+      "sapecpd1"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC04",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "ECP",
+    "component": "ECC",
+    "aliases": [
+      "sapecpd2"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC05",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "ECP",
+    "component": "ECC",
+    "aliases": [
+      "sapecpd3"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC06",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "ECP",
+    "component": "ECC",
+    "aliases": [
+      "sapecpd4"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC07",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "ECP",
+    "component": "ECC",
+    "aliases": [
+      "sapecpd6"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC08",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "ECP",
+    "component": "ECC",
+    "aliases": [
+      "sapecpd7"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP00",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "PTP",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapptpdb"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLEP01",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "PTP",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapptpdg"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLEP02",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "PTP",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapptpm1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLEP03",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "PTP",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapptpd1"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP04",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "PTP",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapptpd2"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP05",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "PTP",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapptpd3"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP06",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "PTP",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapptpd4"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP07",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "PTP",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapptpd5"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP08",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "PTP",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapptpd6"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLGR04",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "GRP",
+    "component": "GRC",
+    "aliases": [
+      "sapgrpd2"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLOT00",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "OTP",
+    "component": "Open Text - Vendor Invoice Management",
+    "aliases": [
+      "sapotpdb"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLOT02",
+    "location": "ISB",
+    "osVersion": "RHEL 5.10",
+    "tier": "Prod",
+    "sid": "OTP",
+    "component": "Open Text - Vendor Invoice Management",
+    "aliases": [
+      "sapotpd1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLPI00",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "PIP",
+    "component": "Process Integration",
+    "aliases": [
+      "sappipdb"
+    ],
+    "cpu": 4,
+    "memory": 32,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLPI01",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "PIP",
+    "component": "Process Integration",
+    "aliases": [
+      "sappipdg"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLPI02",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "PIP",
+    "component": "Process Integration",
+    "aliases": [
+      "sappipm1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLPI03",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "PIP",
+    "component": "Process Integration",
+    "aliases": [
+      "sappipd1"
+    ],
+    "cpu": 4,
+    "memory": 32,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLPI04",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "PIP",
+    "component": "Process Integration",
+    "aliases": [
+      "sappipd2"
+    ],
+    "cpu": 4,
+    "memory": 32,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLPI05",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "PIP",
+    "component": "Process Integration",
+    "aliases": [
+      "sappidd3"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLAE00",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "AEP",
+    "component": "PI-DAE",
+    "aliases": [
+      "sapaepdb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLAE01",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "AEP",
+    "component": "PI-DAE",
+    "aliases": [
+      "sapaepdg"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLAE02",
+    "location": "DMZ",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "AEP",
+    "component": "PI-DAE",
+    "aliases": [
+      "sapaepm1"
+    ],
+    "cpu": null,
+    "memory": null,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLAE03",
+    "location": "DMZ",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "AEP",
+    "component": "PI-DAE",
+    "aliases": [
+      "sapaepd1"
+    ],
+    "cpu": null,
+    "memory": null,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLAE04",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "AEP",
+    "component": "PI-DAE",
+    "aliases": [
+      "sapaepd2"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLPP02",
+    "location": "ISB",
+    "osVersion": "Win 2008 R2",
+    "tier": "Prod",
+    "sid": null,
+    "component": "Productivity Pack",
+    "aliases": [
+      "sappppd1"
+    ],
+    "cpu": null,
+    "memory": null,
+    "swap": 4,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLSL00",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "SLP",
+    "component": "SLD",
+    "aliases": [
+      "sapslpdb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLSL01",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "SLP",
+    "component": "SLD",
+    "aliases": [
+      "sapslpdg"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLSL02",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "SLP",
+    "component": "SLD",
+    "aliases": [
+      "sapslpm1"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLSL03",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "SLP",
+    "component": "SLD",
+    "aliases": [
+      "sapsldd1"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLSL04",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "SLP",
+    "component": "SLD",
+    "aliases": [
+      "sapslpd2"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLSR00",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "SRP",
+    "component": "SRM",
+    "aliases": [
+      "sapsrpdb"
+    ],
+    "cpu": 4,
+    "memory": 24,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLSR01",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "SRP",
+    "component": "SRM",
+    "aliases": [
+      "sapsrpdg"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLSR02",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "SRP",
+    "component": "SRM",
+    "aliases": [
+      "sapsrpm1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLSR03",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "SRP",
+    "component": "SRM",
+    "aliases": [
+      "sapsrpd1"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLSR04",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "SRP",
+    "component": "SRM",
+    "aliases": [
+      "sapsrpd2"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLSR05",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "SRP",
+    "component": "SRM",
+    "aliases": [
+      "sapsrpd3"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLSR06",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "SRP",
+    "component": "SRM",
+    "aliases": [
+      "sapsrpd4"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLVX02",
+    "location": "ISB",
+    "osVersion": "RHEL 5.10",
+    "tier": "Prod",
+    "sid": "VXP",
+    "component": "Vertex",
+    "aliases": [
+      "sapvxpd1"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLVX04",
+    "location": "EV",
+    "osVersion": "RHEL 5.10",
+    "tier": "Prod",
+    "sid": "VXP",
+    "component": "Vertex",
+    "aliases": [
+      "sapvxpd2"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLWY02",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "WYP",
+    "component": "Wily",
+    "aliases": [
+      "sapwypd1"
+    ],
+    "cpu": 2,
+    "memory": 8,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBO20",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "BOQ",
+    "component": "Business Objects",
+    "aliases": [
+      "sapboqdb "
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLBO21",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "BOQ",
+    "component": "Business Objects",
+    "aliases": [
+      "sapboqdg"
+    ],
+    "cpu": 2,
+    "memory": 8,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLBO23",
+    "location": "ISB",
+    "osVersion": "RHEL 5.10",
+    "tier": "QA",
+    "sid": "BOQ",
+    "component": "Business Objects",
+    "aliases": [
+      "sapboqp1"
+    ],
+    "cpu": 8,
+    "memory": 48,
+    "swap": 20,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBO24",
+    "location": "ISB",
+    "osVersion": "RHEL 5.10",
+    "tier": "QA",
+    "sid": "BOQ",
+    "component": "Business Objects",
+    "aliases": [
+      "sapboqp2"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 20,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBO25",
+    "location": "ISB",
+    "osVersion": "Win 2008 R2",
+    "tier": "QA",
+    "sid": "BOQ",
+    "component": "Business Objects",
+    "aliases": [
+      "None"
+    ],
+    "cpu": 2,
+    "memory": 8,
+    "swap": 3,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBW20",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "BWQ",
+    "component": "BW",
+    "aliases": [
+      "sapbwqdb"
+    ],
+    "cpu": 4,
+    "memory": 24,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLBW21",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "BWQ",
+    "component": "BW",
+    "aliases": [
+      "sapbwqdg"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLBW22",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "BWQ",
+    "component": "BW",
+    "aliases": [
+      "sapbwqm1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLBW23",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "BWQ",
+    "component": "BW",
+    "aliases": [
+      "sapbwqd1"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLBW24",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "BWQ",
+    "component": "BW",
+    "aliases": [
+      "sapbwqd2"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLBW29",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "BWQ",
+    "component": "BW",
+    "aliases": [
+      "sapbwqc2"
+    ],
+    "cpu": null,
+    "memory": null,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLEC20",
+    "location": "ISB",
+    "osVersion": "RHEL 6.6",
+    "tier": "QA",
+    "sid": "ECQ",
+    "component": "ECC",
+    "aliases": [
+      "sapecqdb"
+    ],
+    "cpu": 4,
+    "memory": 24,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLEC21",
+    "location": "EV",
+    "osVersion": "RHEL 6.6",
+    "tier": "QA",
+    "sid": "ECQ",
+    "component": "ECC",
+    "aliases": [
+      "sapecqdg"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLEC22",
+    "location": "ISB",
+    "osVersion": "RHEL 6.6",
+    "tier": "QA",
+    "sid": "ECQ",
+    "component": "ECC",
+    "aliases": [
+      "sapecqm1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLEC23",
+    "location": "ISB",
+    "osVersion": "RHEL 6.6",
+    "tier": "QA",
+    "sid": "ECQ",
+    "component": "ECC",
+    "aliases": [
+      "sapecqd1"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC24",
+    "location": "EV",
+    "osVersion": "RHEL 6.6",
+    "tier": "QA",
+    "sid": "ECQ",
+    "component": "ECC",
+    "aliases": [
+      "sapecqd2"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC25",
+    "location": "ISB",
+    "osVersion": "RHEL 6.6",
+    "tier": "QA",
+    "sid": "ECQ",
+    "component": "ECC",
+    "aliases": [
+      "sapecqd3"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC26",
+    "location": "EV",
+    "osVersion": "RHEL 6.6",
+    "tier": "QA",
+    "sid": "ECQ",
+    "component": "ECC",
+    "aliases": [
+      "sapecqd4"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP20",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "PTQ",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapptqdb"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLEP21",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "PTQ",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapptqdg"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLEP22",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "PTQ",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapptqm1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLEP23",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "PTQ",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapptqd1"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP24",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "PTQ",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapptqd2"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP29",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "PTQ",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapptqd3"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLOT20",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "OTQ",
+    "component": "Open Text - Vendor Invoice Management",
+    "aliases": [
+      "sapotqdb"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLOT21",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "OTQ",
+    "component": "Open Text - Vendor Invoice Management",
+    "aliases": [
+      "sapotqdg"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLOT22",
+    "location": "ISB",
+    "osVersion": "RHEL 5.10",
+    "tier": "QA",
+    "sid": "OTQ",
+    "component": "Open Text - Vendor Invoice Management",
+    "aliases": [
+      "sapotqd1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLPI20",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "PIQ",
+    "component": "Process Integration",
+    "aliases": [
+      "sappiqdb"
+    ],
+    "cpu": 4,
+    "memory": 32,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLPI21",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "PIQ",
+    "component": "Process Integration",
+    "aliases": [
+      "sappiqdg"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLPI22",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "PIQ",
+    "component": "Process Integration",
+    "aliases": [
+      "sappiqm1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLPI23",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "PIQ",
+    "component": "Process Integration",
+    "aliases": [
+      "sappiqd1"
+    ],
+    "cpu": 4,
+    "memory": 32,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLPI24",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "PIQ",
+    "component": "Process Integration",
+    "aliases": [
+      "sappiqd2"
+    ],
+    "cpu": 4,
+    "memory": 32,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLAE20",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "AEQ",
+    "component": "PI-DAE",
+    "aliases": [
+      "sapaeqdb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLAE21",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "AEQ",
+    "component": "PI-DAE",
+    "aliases": [
+      "sapaeqdg"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLAE22",
+    "location": "DMZ",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "AEQ",
+    "component": "PI-DAE",
+    "aliases": [
+      "sapaeqm1"
+    ],
+    "cpu": null,
+    "memory": null,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLAE23",
+    "location": "DMZ",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "AEQ",
+    "component": "PI-DAE",
+    "aliases": [
+      "sapaeqd1"
+    ],
+    "cpu": null,
+    "memory": null,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLAE24",
+    "location": "DMZ",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "AEQ",
+    "component": "PI-DAE",
+    "aliases": [
+      "sapaeqd1"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLSR20",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "SRQ",
+    "component": "SRM",
+    "aliases": [
+      "sapsrqdb"
+    ],
+    "cpu": 4,
+    "memory": 24,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLSR21",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "SRQ",
+    "component": "SRM",
+    "aliases": [
+      "sapsrqdg"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLSR22",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "SRQ",
+    "component": "SRM",
+    "aliases": [
+      "sapsrqm1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLSR23",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "SRQ",
+    "component": "SRM",
+    "aliases": [
+      "sapsrqd1"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLSR24",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "SRQ",
+    "component": "SRM",
+    "aliases": [
+      "sapsrqd2"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLVX22",
+    "location": "ISB",
+    "osVersion": "RHEL 5.10",
+    "tier": "QA",
+    "sid": "VXQ",
+    "component": "Vertex",
+    "aliases": [
+      "sapvxqd1"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": []
+  },
+  {
+    "hostname": "SRPLBO40",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test",
+    "sid": "BOT",
+    "component": "Business Objects",
+    "aliases": [
+      "sapbotdb "
+    ],
+    "cpu": 2,
+    "memory": 8,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLBO42",
+    "location": "EV",
+    "osVersion": "RHEL 5.10",
+    "tier": "Test",
+    "sid": "BOT",
+    "component": "Business Objects",
+    "aliases": [
+      "sapbotw1"
+    ],
+    "cpu": 2,
+    "memory": 8,
+    "swap": 10,
+    "stack": "OTHER",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLBO43",
+    "location": "EV",
+    "osVersion": "RHEL 5.10",
+    "tier": "Test",
+    "sid": "BOT",
+    "component": "Business Objects",
+    "aliases": [
+      "sapbotp1"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBO44",
+    "location": "EV",
+    "osVersion": "RHEL 5.10",
+    "tier": "Test",
+    "sid": "BOT",
+    "component": "Business Objects",
+    "aliases": [
+      "sapbotp2"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBO45",
+    "location": "EV",
+    "osVersion": "WIN 2008 R2",
+    "tier": "Test",
+    "sid": "BOT",
+    "component": "Business Objects",
+    "aliases": [
+      "sapbotp4"
+    ],
+    "cpu": null,
+    "memory": null,
+    "swap": 3,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBW40",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test",
+    "sid": "BWT",
+    "component": "BW",
+    "aliases": [
+      "sapbwtdb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLBW42",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test",
+    "sid": "BWT",
+    "component": "BW",
+    "aliases": [
+      "sapbwtd1, sapbwtm1, sapbwtm2"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLDS40",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test",
+    "sid": "DST",
+    "component": "Data Services",
+    "aliases": [
+      "sapdstdb"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLDS42",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test",
+    "sid": "DST",
+    "component": "Data Services",
+    "aliases": [
+      "sapdstp1"
+    ],
+    "cpu": 4,
+    "memory": 8,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC40",
+    "location": "Ev",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test",
+    "sid": "ECT",
+    "component": "ECC",
+    "aliases": [
+      "sapectdb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLEC42",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test",
+    "sid": "ECT",
+    "component": "ECC",
+    "aliases": [
+      "sapectd1, sapectm1, sapectm2"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC43",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test",
+    "sid": "ECT",
+    "component": "ECC",
+    "aliases": [
+      "sapectd2"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP40",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test",
+    "sid": "PTT",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sappttdb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLEP42",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test",
+    "sid": "PTT",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sappttd1, sappttm1, sappttm2"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLOT40",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test",
+    "sid": "OTT",
+    "component": "Open Text - Vendor Invoice Management",
+    "aliases": [
+      "SAPOTTDB"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLOT42",
+    "location": "EV",
+    "osVersion": "RHEL 5.10",
+    "tier": "Test",
+    "sid": "OTT",
+    "component": "Open Text - Vendor Invoice Management",
+    "aliases": [
+      "SAPOTTD1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLPI40",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test",
+    "sid": "PIT",
+    "component": "Process Integration",
+    "aliases": [
+      "sappitdb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLPI42",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test",
+    "sid": "PIT",
+    "component": "Process Integration",
+    "aliases": [
+      "sappitd1, sappitm1, sappitm2"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLSR40",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test",
+    "sid": "SRT",
+    "component": "SRM",
+    "aliases": [
+      "sapsrtdb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLSR42",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test",
+    "sid": "SRT",
+    "component": "SRM",
+    "aliases": [
+      "sapsrtd1, sapsrtm1, sapsrtm2"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLVX42",
+    "location": "EV",
+    "osVersion": "RHEL 5.10",
+    "tier": "Test",
+    "sid": "VXT",
+    "component": "Vertex",
+    "aliases": [
+      "sapvxtd1"
+    ],
+    "cpu": 2,
+    "memory": 8,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLAE40",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test",
+    "sid": "AET",
+    "component": "PI-DAE",
+    "aliases": [
+      "sapaetdb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLAE42",
+    "location": "DMZ",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test",
+    "sid": "AET",
+    "component": "PI-DAE",
+    "aliases": [
+      "sapaetd1, sapaetm1, sapaetm2"
+    ],
+    "cpu": null,
+    "memory": null,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLBO60",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "BOD",
+    "component": "Business Objects",
+    "aliases": [
+      "sapboddb "
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLBO62",
+    "location": "EV",
+    "osVersion": "RHEL 5.11",
+    "tier": "Dev",
+    "sid": "BOD",
+    "component": "Business Objects",
+    "aliases": [
+      "sapbodw1"
+    ],
+    "cpu": 2,
+    "memory": 12,
+    "swap": 10,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBO63",
+    "location": "EV",
+    "osVersion": "RHEL 5.11",
+    "tier": "Dev",
+    "sid": "BOD",
+    "component": "Business Objects",
+    "aliases": [
+      "sapbodp1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBO64",
+    "location": "EV",
+    "osVersion": "RHEL 5.11",
+    "tier": "Dev",
+    "sid": "BOD",
+    "component": "Business Objects",
+    "aliases": [
+      "sapbodp2"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBO65",
+    "location": "EV",
+    "osVersion": "WIN 2008 R2",
+    "tier": "Dev",
+    "sid": "BOD",
+    "component": "Business Objects",
+    "aliases": [
+      "sapbodp3"
+    ],
+    "cpu": null,
+    "memory": null,
+    "swap": 3,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBW60",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "BWD",
+    "component": "BW",
+    "aliases": [
+      "sapbwddb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLBW62",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "BWD",
+    "component": "BW",
+    "aliases": [
+      "sapbwdd1, sapbwdm1, sapbwdm2"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLDS60",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "DSD",
+    "component": "Data Services",
+    "aliases": [
+      "sapdsddb"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLDS62",
+    "location": "EV",
+    "osVersion": "RHEL 6.x",
+    "tier": "Dev",
+    "sid": "DSD",
+    "component": "Data Services",
+    "aliases": [
+      "sapdsdd1"
+    ],
+    "cpu": 4,
+    "memory": 12,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC60",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "ECD",
+    "component": "ECC",
+    "aliases": [
+      "sapecddb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLEC62",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "ECD",
+    "component": "ECC",
+    "aliases": [
+      "sapecdd1, sapecdm1, sapecdm2"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC63",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "ECD",
+    "component": "ECC",
+    "aliases": [
+      "sapecdd2"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP60",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "PTD",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "srpptddb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLEP62",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "PTD",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapptdd1, sapptdm1, sapptdm2"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLGR60",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "GRD",
+    "component": "GRC",
+    "aliases": [
+      "srpgrddb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLGR62",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "GRD",
+    "component": "GRC",
+    "aliases": [
+      "sapgrdd1, sapgrdm1, sapgrdm2"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLPI60",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "PID",
+    "component": "Process Integration",
+    "aliases": [
+      "sappiddb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLPI62",
+    "location": "Ev",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "PID",
+    "component": "Process Integration",
+    "aliases": [
+      "sappidd1, sappidm1, sappidm2"
+    ],
+    "cpu": 1,
+    "memory": 12,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLSL60",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "SLD",
+    "component": "SLD",
+    "aliases": [
+      "sapslddb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLSL62",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "SLD",
+    "component": "SLD",
+    "aliases": [
+      "sapsldd1, sapsldm1, sapsldm2"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPSOL00",
+    "location": "isb",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "SMP",
+    "component": "Solution Manager",
+    "aliases": [
+      "sapsmpdb"
+    ],
+    "cpu": 2,
+    "memory": 8,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPSOL02",
+    "location": "isb",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "SMP",
+    "component": "Solution Manager",
+    "aliases": [
+      "sapsmpd1, sapsmpm1, "
+    ],
+    "cpu": 4,
+    "memory": 48,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLSR60",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "SRD",
+    "component": "SRM",
+    "aliases": [
+      "sapsrddb"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLSR62",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "SRD",
+    "component": "SRM",
+    "aliases": [
+      "sapsrdd1, sapsrdm1, sapsrdm2"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLAE60",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "AED",
+    "component": "PI-DAE",
+    "aliases": [
+      "sapaeddb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLAE62",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "AED",
+    "component": "PI-DAE",
+    "aliases": [
+      "sapaedd1, sapaedm1, sapaedm2"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLVX62",
+    "location": "EV",
+    "osVersion": "RHEL 5.11",
+    "tier": "Dev",
+    "sid": "VXD",
+    "component": "Vertex",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 4,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLOT60",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "OTD",
+    "component": "Open Text - Vendor Invoice Management",
+    "aliases": [
+      "SAPOTDDB"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLOT62",
+    "location": "EV",
+    "osVersion": "RHEL 5.11",
+    "tier": "Dev",
+    "sid": "OTD",
+    "component": "Open Text - Vendor Invoice Management",
+    "aliases": [
+      "SAPOTDD1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLWY62",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Dev",
+    "sid": "n/a",
+    "component": "Wily",
+    "aliases": [
+      "sapwydd1"
+    ],
+    "cpu": 2,
+    "memory": 4,
+    "swap": 4,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLAP62",
+    "location": "EV",
+    "osVersion": "WIN 2008 R2",
+    "tier": "QA",
+    "sid": "n/a",
+    "component": "APM",
+    "aliases": [
+      "sapapmd1"
+    ],
+    "cpu": null,
+    "memory": null,
+    "swap": 4,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPGRZ81",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Functional",
+    "sid": "GRS",
+    "component": "GRC",
+    "aliases": [
+      " "
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPPTL01 - retired",
+    "location": "EV",
+    "osVersion": "RHEL 5.6",
+    "tier": "SB-Functional",
+    "sid": "PTS",
+    "component": "Enterprise Portal",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPSAP02",
+    "location": "EV",
+    "osVersion": "RHEL 6.6",
+    "tier": "SB-Functional",
+    "sid": null,
+    "component": null,
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": []
+  },
+  {
+    "hostname": "SRPLBW82",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Functional",
+    "sid": "BWZ",
+    "component": "BW",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLPP80",
+    "location": "EV",
+    "osVersion": "WIN 2008 R2",
+    "tier": "SB-Tech",
+    "sid": "N/A",
+    "component": "Productivity Pack",
+    "aliases": [
+      "sapppkdb"
+    ],
+    "cpu": 2,
+    "memory": 4,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLPP82",
+    "location": "EV",
+    "osVersion": "WIN 2008 R2",
+    "tier": "SB-Tech",
+    "sid": "N/A",
+    "component": "Productivity Pack",
+    "aliases": [
+      "sapppkd1"
+    ],
+    "cpu": 2,
+    "memory": 4,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPSAP06",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Functional",
+    "sid": "BWS",
+    "component": "BW",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPSAP04",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Functional",
+    "sid": "ECS",
+    "component": "ECC",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPSAP08",
+    "location": "EV",
+    "osVersion": "RHEL 5.11",
+    "tier": "SB-Functional",
+    "sid": null,
+    "component": "Data Services",
+    "aliases": [
+      " "
+    ],
+    "cpu": 1,
+    "memory": 12,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPSLD81",
+    "location": "EV",
+    "osVersion": "RHEL 5.11",
+    "tier": "SB-Functional",
+    "sid": "SLS",
+    "component": "SLD",
+    "aliases": [
+      " "
+    ],
+    "cpu": 1,
+    "memory": 12,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLOT80",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Functional",
+    "sid": "OTS",
+    "component": "Open Text - Vendor Invoice Management",
+    "aliases": [
+      "SAPOTSDB"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLOT82",
+    "location": "EV",
+    "osVersion": "RHEL 5.11",
+    "tier": "SB-Functional",
+    "sid": "OTS",
+    "component": "Open Text - Vendor Invoice Management",
+    "aliases": [
+      "SAPOTSD1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLVX81",
+    "location": "EV",
+    "osVersion": "RHEL 6.6",
+    "tier": "SB-Functional",
+    "sid": "VXS",
+    "component": "Vertex",
+    "aliases": [
+      " "
+    ],
+    "cpu": 1,
+    "memory": 4,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLEC80",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "ECZ",
+    "component": "ECC",
+    "aliases": [
+      "SAPECZDB"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLEC81",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "ECZ",
+    "component": "ECC",
+    "aliases": [
+      " "
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLEC82",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "ECZ",
+    "component": "ECC",
+    "aliases": [
+      "sapeczd1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC83",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "ECZ",
+    "component": "ECC",
+    "aliases": [
+      "sapeczd2"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC84",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "ECZ",
+    "component": "ECC",
+    "aliases": [
+      "sapeczm1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLEP80",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "EPZ",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapepzdb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLEP82",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "EPZ",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapepzd1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP83",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "EPZ",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapepzd2"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP84",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "EPZ",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapepzm1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLPI80",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "PIZ",
+    "component": "Process Integration",
+    "aliases": [
+      "sappizdb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLPI82",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "PIZ",
+    "component": "Process Integration",
+    "aliases": [
+      "sappizd1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLPI83",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "PIZ",
+    "component": "Process Integration",
+    "aliases": [
+      "sappizd2"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": []
+  },
+  {
+    "hostname": "SRPLPI84",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "PIZ",
+    "component": "Process Integration",
+    "aliases": [
+      "sappizm1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPSOL80",
+    "location": "EV",
+    "osVersion": "RHEL 5.11",
+    "tier": "SB-Functional",
+    "sid": "SMS",
+    "component": "Solution Manager",
+    "aliases": [
+      "sapsmsdb"
+    ],
+    "cpu": 1,
+    "memory": 12,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPSOL82",
+    "location": "Ev",
+    "osVersion": "RHEL 5.11",
+    "tier": "SB-Functional",
+    "sid": "SMS",
+    "component": "Solution Manager",
+    "aliases": [
+      "sapsmsd1, sapsmsm1, sapsmsd2"
+    ],
+    "cpu": 1,
+    "memory": 12,
+    "swap": null,
+    "stack": "DUAL",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPDRT80",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "ESX",
+    "component": "BW",
+    "aliases": [
+      "(only in the DR network - SAPBWDDB)"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPDRT82",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "ESX",
+    "component": "BW",
+    "aliases": [
+      "(only in the DR network - sapbwdd1, sapbwdm1)"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLAE80",
+    "location": "EV",
+    "osVersion": "RHEL 6.6",
+    "tier": "SB-Tech",
+    "sid": "AEZ",
+    "component": "PI-DAE",
+    "aliases": [
+      "sapaezdb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLAE82",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "AEZ",
+    "component": "PI-DAE",
+    "aliases": [
+      "sapaezd1, sapaezm1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC39",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Training",
+    "sid": "ECX",
+    "component": "ECC",
+    "aliases": [
+      "sapecxd1, sapecxm1, sapecxdb"
+    ],
+    "cpu": 4,
+    "memory": 39,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLSR39",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Training",
+    "sid": "SRX",
+    "component": "SRM",
+    "aliases": [
+      "sapsrxd1, sapsrxm1, sapsrxdb"
+    ],
+    "cpu": 4,
+    "memory": 32,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP39",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Training",
+    "sid": "PTX",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sapptxd1, sapptxm1, sapptxdb"
+    ],
+    "cpu": 2,
+    "memory": 19,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLBW06",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "BWP",
+    "component": "BW",
+    "aliases": [
+      "sapbwpd4"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLBW07",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "BWP",
+    "component": "BW",
+    "aliases": [
+      "sapbwpd5"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLSR07",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "SRP",
+    "component": "SRM",
+    "aliases": [
+      "sapsrpd5"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLSL05",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "SLP",
+    "component": "SLD",
+    "aliases": [
+      "sapslpd3"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 8,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLGR00",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "GRP",
+    "component": "GRC",
+    "aliases": [
+      "sapgrpdb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLGR01",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "GRP",
+    "component": "GRC",
+    "aliases": [
+      "sapgrpdb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLGR02",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "GRP",
+    "component": "GRC",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 20,
+    "stack": "OTHER",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLGR03",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "GRP",
+    "component": "GRC",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 20,
+    "stack": "OTHER",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLBO46",
+    "location": "EV",
+    "osVersion": "RHEL 5.10",
+    "tier": "Test",
+    "sid": "BOT",
+    "component": "Business Objects",
+    "aliases": [
+      "sapbotp3"
+    ],
+    "cpu": 4,
+    "memory": 32,
+    "swap": 20,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBO26",
+    "location": "ISB",
+    "osVersion": "RHEL 5.10",
+    "tier": "QA",
+    "sid": "BOQ",
+    "component": "Business Objects",
+    "aliases": [
+      "sapboqp3"
+    ],
+    "cpu": 4,
+    "memory": 32,
+    "swap": 20,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBO06",
+    "location": "ISB",
+    "osVersion": "RHEL 5.10",
+    "tier": "Prod",
+    "sid": "BOP",
+    "component": "Business Objects",
+    "aliases": [
+      "sapbopp3"
+    ],
+    "cpu": 8,
+    "memory": 48,
+    "swap": 20,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPSOL03",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "SMP",
+    "component": "Solution Manager",
+    "aliases": [
+      "sapsmpd2"
+    ],
+    "cpu": 4,
+    "memory": 48,
+    "swap": 8,
+    "stack": "OTHER",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC38",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "ECM",
+    "component": "ECC",
+    "aliases": [
+      "sapecqd3"
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": 8,
+    "stack": "ABAP",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLBO07",
+    "location": "ISB",
+    "osVersion": "RHEL 5.10",
+    "tier": "Prod",
+    "sid": "BOP",
+    "component": "Business Objects",
+    "aliases": [
+      "sapbopp4"
+    ],
+    "cpu": 2,
+    "memory": 2,
+    "swap": 20,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPSOL01",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "SMP",
+    "component": "Solution Manager",
+    "aliases": [
+      "sapsmpdg"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLEC37",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "ECA",
+    "component": "ECC",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLST02",
+    "location": "EV",
+    "osVersion": "Virtual Appliance",
+    "tier": "Dev",
+    "sid": null,
+    "component": "Salt",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 2,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": []
+  },
+  {
+    "hostname": "SRPLBW80",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "BWZ",
+    "component": "BW",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLBW81",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "BWZ",
+    "component": "BW",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLBW83",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "BWZ",
+    "component": "BW",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLVX82",
+    "location": "EV",
+    "osVersion": "RHEL 6.6",
+    "tier": "SB-Tech",
+    "sid": "VXZ",
+    "component": "Vertex",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBW84",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "BWZ",
+    "component": "BW",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLOT90",
+    "location": null,
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "OTZ",
+    "component": "Open Text - Vendor Invoice Management",
+    "aliases": [
+      "sapotzdb, sapotxd1"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 0.2,
+    "stack": "OTHER",
+    "roles": [
+      "DB",
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBO22",
+    "location": "ISB",
+    "osVersion": "RHEL 5.10",
+    "tier": "QA",
+    "sid": "BOQ",
+    "component": "Business Objects",
+    "aliases": [
+      "sapboqw1"
+    ],
+    "cpu": 4,
+    "memory": 24,
+    "swap": 20,
+    "stack": "OTHER",
+    "roles": []
+  },
+  {
+    "hostname": "SRPLVX24",
+    "location": "EV",
+    "osVersion": "RHEL 5.10",
+    "tier": "QA",
+    "sid": "VXQ",
+    "component": "Vertex",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLGW80",
+    "location": "IS",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "GWZ",
+    "component": "GWS",
+    "aliases": [
+      "sapgwzdb, sapgwzm1, sapgwzd1"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLBW92",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "Sandbox+1",
+    "sid": "BW0",
+    "component": "BW",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC92",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Sandbox+1",
+    "sid": "EC0",
+    "component": "ECC",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLGR92",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Sandbox+1",
+    "sid": "GR0",
+    "component": "GRC",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLOT92",
+    "location": "EV",
+    "osVersion": "RHEL 5.10",
+    "tier": "Sandbox+1",
+    "sid": "OT0",
+    "component": "Open Text - Vendor Invoice Management",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLAE92",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Sandbox+1",
+    "sid": "AE0",
+    "component": "PI-DAE",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP92",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Sandbox+1",
+    "sid": "PT0",
+    "component": "Enterprise Portal",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLPI92",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Sandbox+1",
+    "sid": "PI0",
+    "component": "Process Integration",
+    "aliases": [
+      "SAPPI0DB, SAPPI0M1, SAPPI0D1"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 20,
+    "stack": "OTHER",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLSR92",
+    "location": "Any",
+    "osVersion": "RHEL 6.5",
+    "tier": "Sandbox+1",
+    "sid": "SR0",
+    "component": "SRM",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLVX92",
+    "location": "EV",
+    "osVersion": "RHEL 6.6",
+    "tier": "Sandbox+1",
+    "sid": "VX0",
+    "component": "Vertex",
+    "aliases": [
+      "N/A"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 20,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBW72",
+    "location": "Any",
+    "osVersion": "RHEL 6.5",
+    "tier": "Dev+1",
+    "sid": "bw1",
+    "component": "BW",
+    "aliases": [
+      "sapbw1m1,sapbw1d1,sapbw1db,"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC72",
+    "location": "Any",
+    "osVersion": "RHEL 6.5",
+    "tier": "Dev+1",
+    "sid": "ec1",
+    "component": "ECC",
+    "aliases": [
+      "sapec1m1,sapec1d1,sapec1db,"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLGR72",
+    "location": "Any",
+    "osVersion": "RHEL 6.5",
+    "tier": "Dev+1",
+    "sid": "gr1",
+    "component": "GRC",
+    "aliases": [
+      "sapegr1m1,sapgr1d1,sapgr1db,"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLOT72",
+    "location": "Any",
+    "osVersion": "RHEL 5.10",
+    "tier": "Dev+1",
+    "sid": "ot1",
+    "component": "Open Text - Vendor Invoice Management",
+    "aliases": [
+      "sapot1d1,sapot1db"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB",
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLAE72",
+    "location": "Any",
+    "osVersion": "RHEL 6.5",
+    "tier": "Dev+1",
+    "sid": "ae1",
+    "component": "PI-DAE",
+    "aliases": [
+      "sapae1m1,sapae1d1,sapae1db,"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP72",
+    "location": "Any",
+    "osVersion": "RHEL 6.5",
+    "tier": "Dev+1",
+    "sid": "pt1",
+    "component": "Enterprise Portal",
+    "aliases": [
+      "sappt1m1,sappt1d1,sappt1db,"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLPI72",
+    "location": "Any",
+    "osVersion": "RHEL 6.5",
+    "tier": "Dev+1",
+    "sid": "pi1",
+    "component": "Process Integration",
+    "aliases": [
+      "sappi1,sappid1,sappi1db,"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLSR72",
+    "location": "Any",
+    "osVersion": "RHEL 6.5",
+    "tier": "Dev+1",
+    "sid": "sr1",
+    "component": "SRM",
+    "aliases": [
+      "sapsr1m1,sapsr1d1,sapsr1db,"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLVX72",
+    "location": "Any",
+    "osVersion": "RHEL 5.11",
+    "tier": "Dev+1",
+    "sid": "vx1",
+    "component": "Vertex",
+    "aliases": [
+      "sapvx1d1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBW52",
+    "location": "Any",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test+1",
+    "sid": "bw2",
+    "component": "BW",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC52",
+    "location": "Any",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test+1",
+    "sid": "ec2",
+    "component": "ECC",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLGR52",
+    "location": "Any",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test+1",
+    "sid": "gr2",
+    "component": "GRC",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLOT52",
+    "location": "Any",
+    "osVersion": "RHEL 5.10",
+    "tier": "Test+1",
+    "sid": "ot2",
+    "component": "Open Text - Vendor Invoice Management",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB",
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLAE52",
+    "location": "DMZ",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test+1",
+    "sid": "ae2",
+    "component": "PI-DAE",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP52",
+    "location": "Any",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test+1",
+    "sid": "pt2",
+    "component": "Enterprise Portal",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLPI52",
+    "location": "Any",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test+1",
+    "sid": "pi2",
+    "component": "Process Integration",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLSR52",
+    "location": "Any",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test+1",
+    "sid": "sr2",
+    "component": "SRM",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLVX52",
+    "location": "EV",
+    "osVersion": "RHEL 5.10",
+    "tier": "Test+1",
+    "sid": "vx2",
+    "component": "Vertex",
+    "aliases": [
+      "sapvx2d1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLBW30",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "bw3",
+    "component": "BW",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLBW32",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "bw3",
+    "component": "BW",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLBW33",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "bw3",
+    "component": "BW",
+    "aliases": [
+      null
+    ],
+    "cpu": 4,
+    "memory": 24,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLBW34",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "bw3",
+    "component": "BW",
+    "aliases": [
+      null
+    ],
+    "cpu": 4,
+    "memory": 24,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC30",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "ec3",
+    "component": "ECC",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLEC32",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "ec3",
+    "component": "ECC",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLEC33",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "ec3",
+    "component": "ECC",
+    "aliases": [
+      null
+    ],
+    "cpu": 4,
+    "memory": 24,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEC34",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "ec3",
+    "component": "ECC",
+    "aliases": [
+      null
+    ],
+    "cpu": 4,
+    "memory": 24,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLGR30",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "gr3",
+    "component": "GRC",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLGR32",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "gr3",
+    "component": "GRC",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLGR33",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "gr3",
+    "component": "GRC",
+    "aliases": [
+      null
+    ],
+    "cpu": 4,
+    "memory": 24,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLGR34",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "gr3",
+    "component": "GRC",
+    "aliases": [
+      null
+    ],
+    "cpu": 4,
+    "memory": 24,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP30",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "pt3",
+    "component": "Enterprise Portal",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLEP32",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "pt3",
+    "component": "Enterprise Portal",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLEP33",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "pt3",
+    "component": "Enterprise Portal",
+    "aliases": [
+      null
+    ],
+    "cpu": 4,
+    "memory": 24,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP34",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "pt3",
+    "component": "Enterprise Portal",
+    "aliases": [
+      null
+    ],
+    "cpu": 4,
+    "memory": 24,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLPI30",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "pi3",
+    "component": "Process Integration",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLPI32",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "pi3",
+    "component": "Process Integration",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLPI33",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "pi3",
+    "component": "Process Integration",
+    "aliases": [
+      null
+    ],
+    "cpu": 4,
+    "memory": 24,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLPI34",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "pi3",
+    "component": "Process Integration",
+    "aliases": [
+      null
+    ],
+    "cpu": 4,
+    "memory": 24,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLSR30",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "sr3",
+    "component": "SRM",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLSR32",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "sr3",
+    "component": "SRM",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLSR33",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "sr3",
+    "component": "SRM",
+    "aliases": [
+      null
+    ],
+    "cpu": 4,
+    "memory": 24,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLSR34",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "sr3",
+    "component": "SRM",
+    "aliases": [
+      null
+    ],
+    "cpu": 4,
+    "memory": 24,
+    "swap": null,
+    "stack": "ABAP",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLAE30",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "ae3",
+    "component": "PI-DAE",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 24,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLAE32",
+    "location": "DMZ",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "ae3",
+    "component": "PI-DAE",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLAE33",
+    "location": "DMZ",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "ae3",
+    "component": "PI-DAE",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLOT30",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "ot3",
+    "component": "Open Text - Vendor Invoice Management",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLVX32",
+    "location": "ISB",
+    "osVersion": "RHEL 5.10",
+    "tier": "QA+1",
+    "sid": "vx3",
+    "component": "Vertex",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLVX34",
+    "location": "EV",
+    "osVersion": "RHEL 5.10",
+    "tier": "QA+1",
+    "sid": "vx3",
+    "component": "Vertex",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLWS62",
+    "location": null,
+    "osVersion": "Win 2008 R2",
+    "tier": "Dev",
+    "sid": null,
+    "component": "Winshuttle",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 4,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBO92",
+    "location": "EV",
+    "osVersion": "RHEL 5.10",
+    "tier": "Sandbox+1",
+    "sid": "BO0",
+    "component": "Bobj/DS",
+    "aliases": [
+      "sapbo0w1"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB",
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBO30",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "BO3",
+    "component": "Business Objects",
+    "aliases": [
+      "DB"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLBO32",
+    "location": "ISB",
+    "osVersion": "RHEL 5.10",
+    "tier": "QA+1",
+    "sid": "BO3",
+    "component": "Business Objects",
+    "aliases": [
+      "W1"
+    ],
+    "cpu": 4,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBO33",
+    "location": "ISB",
+    "osVersion": "RHEL 5.10",
+    "tier": "QA+1",
+    "sid": "BO3",
+    "component": "Business Objects",
+    "aliases": [
+      "P1"
+    ],
+    "cpu": 8,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLBO34",
+    "location": "ISB",
+    "osVersion": "RHEL 5.10",
+    "tier": "QA+1",
+    "sid": "BO3",
+    "component": "Business Objects",
+    "aliases": [
+      "P2"
+    ],
+    "cpu": 8,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLSL30",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "sl3",
+    "component": "SLD",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "JAVA",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLSL32",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "SL3",
+    "component": "SLD",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 12,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLSL33",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "SL3",
+    "component": "SLD",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "JAVA",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLSL92",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Sandbox+1",
+    "sid": "SL0",
+    "component": "SLD",
+    "aliases": [
+      "SAPSL0DB, SAPSL0M1, SAPSL0D1"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 20,
+    "stack": "OTHER",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPSOL92",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Sandbox+1",
+    "sid": "SM0",
+    "component": "Solution Manager",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPSOL30",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "SM3",
+    "component": "Solution Manager",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "DUAL",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPSOL32",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "SM3",
+    "component": "Solution Manager",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "DUAL",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPSOL33",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "SM3",
+    "component": "Solution Manager",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "DUAL",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPSOL34",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA+1",
+    "sid": "SM3",
+    "component": "Solution Manager",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "DUAL",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPSOL20",
+    "location": "isb",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "SMQ",
+    "component": "Solution Manager",
+    "aliases": [
+      "sapsmqdb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPSOL22",
+    "location": "isb",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "SMQ",
+    "component": "Solution Manager",
+    "aliases": [
+      "sapsmqm1, sapsmqd1"
+    ],
+    "cpu": 4,
+    "memory": 48,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPSOL23",
+    "location": "isb",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "SMQ",
+    "component": "Solution Manager",
+    "aliases": [
+      "sapsmqd2"
+    ],
+    "cpu": 4,
+    "memory": 48,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLGR20",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "GRQ",
+    "component": "GRC",
+    "aliases": [
+      "sapgrqdb"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLGR21",
+    "location": "EVS",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "GRQ",
+    "component": "GRC",
+    "aliases": [
+      "sapgrqdg"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLGR22",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "GRQ",
+    "component": "GRC",
+    "aliases": [
+      "sapgrqm1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 20,
+    "stack": "OTHER",
+    "roles": [
+      "MS"
+    ]
+  },
+  {
+    "hostname": "SRPLGR23",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "QA",
+    "sid": "GRQ",
+    "component": "GRC",
+    "aliases": [
+      "sapgrqd1"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 20,
+    "stack": "OTHER",
+    "roles": [
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLVX83",
+    "location": "EV",
+    "osVersion": "RHEL 6.2",
+    "tier": "SB-Tech",
+    "sid": "VXZ",
+    "component": "Vertex",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLPI86",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "SB-Functional",
+    "sid": "PIS",
+    "component": "Process Integration",
+    "aliases": [
+      "sappisd1, sappism1, sappisdb"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLAE86",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "SB-Functional",
+    "sid": "AES",
+    "component": "PI-DAE",
+    "aliases": [
+      "sapaesm1,sapaesd1,sapaesdb,"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLEP86",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "SB-Functional",
+    "sid": "PTS",
+    "component": "Enterprise Portal",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 12,
+    "swap": null,
+    "stack": "JAVA",
+    "roles": [
+      "DB",
+      "MS",
+      "DI"
+    ]
+  },
+  {
+    "hostname": "SRPLOT32",
+    "location": "ISB",
+    "osVersion": "RHEL 5.10",
+    "tier": "QA+1",
+    "sid": "ot3",
+    "component": "Open Text - Vendor Invoice Management",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DI",
+      "OTHER"
+    ]
+  },
+  {
+    "hostname": "SRPLAE50",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Test+1",
+    "sid": "ae2",
+    "component": "PI-DAE",
+    "aliases": [
+      null
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLOT01",
+    "location": "EV",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "OTP",
+    "component": "Open Text - Vendor Invoice Management",
+    "aliases": [
+      null
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": 26,
+    "stack": "OTHER",
+    "roles": [
+      "DG"
+    ]
+  },
+  {
+    "hostname": "SRPLDS80",
+    "location": "Any",
+    "osVersion": "RHEL 6.x",
+    "tier": "SB-Tech",
+    "sid": "DSS",
+    "component": "Data Services",
+    "aliases": [
+      "sapdssdb"
+    ],
+    "cpu": 1,
+    "memory": 8,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": []
+  },
+  {
+    "hostname": "SRPLDS82",
+    "location": "Any",
+    "osVersion": "Windows Server 2008",
+    "tier": "SB-Tech",
+    "sid": "DSS",
+    "component": "Data Services",
+    "aliases": [
+      "sapdssw1"
+    ],
+    "cpu": 2,
+    "memory": 4,
+    "swap": null,
+    "stack": "OTHER",
+    "roles": []
+  },
+  {
+    "hostname": "SRPLDS00",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "DSP",
+    "component": "Data Services",
+    "aliases": [
+      "sapdspdb"
+    ],
+    "cpu": 1,
+    "memory": 16,
+    "swap": 12,
+    "stack": "OTHER",
+    "roles": [
+      "DB"
+    ]
+  },
+  {
+    "hostname": "SRPLDS02",
+    "location": "ISB",
+    "osVersion": "RHEL 6.5",
+    "tier": "Prod",
+    "sid": "DSP",
+    "component": "Data Services",
+    "aliases": [
+      "sapdspw1"
+    ],
+    "cpu": 2,
+    "memory": 16,
+    "swap": 20,
+    "stack": "OTHER",
+    "roles": []
+  }
+]
