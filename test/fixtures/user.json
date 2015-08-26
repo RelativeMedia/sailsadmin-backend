@@ -1,0 +1,10 @@
+[
+  {
+    "firstName": "Test",
+    "lastName": "User",
+    "email": "test@test.com",
+    "username": "testuser",
+    "accessLevel": 1,
+    "password": "testing123"
+  }
+]
