@@ -24,8 +24,13 @@ var User = {
     // Override toJSON instance method to remove password value
     toJSON: function() {
       var obj = this.toObject();
+
+      delete obj.email;
       delete obj.password;
       delete obj.accessToken;
+      delete obj.lastName;
+      delete obj.accessLevel;
+
       return obj;
     }
 
