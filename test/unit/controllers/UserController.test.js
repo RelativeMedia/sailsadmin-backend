@@ -29,7 +29,7 @@ describe('Controllers::User', function(){
       });
     });
 
-    it('should return 200 and should not have protected fields', function(done){
+    it('should return 200, a user array, and should not have protected fields', function(done){
 
       request(sails.hooks.http.app)
       .get('/v1/user')
@@ -37,7 +37,7 @@ describe('Controllers::User', function(){
       .expect('Content-Type', /json/)
       .end(function(err, res){
         expect(err).to.be.null;
-        var user = res.body;
+        var user = res.body.results;
         expect(user).to.be.an('array');
         expect(user[0]).to.not.have.property('password');
         expect(user[0]).to.not.have.property('email');
