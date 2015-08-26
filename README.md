@@ -11,4 +11,6 @@ For the custom `count()` blueprint you will need to add a route for each Model y
 ```
 
 ## Testing
-there are tests built into the backend that do unit testing of the routes, controllers, and models. 
+there are tests built into the backend that do unit testing of the routes, controllers, and models.
+
+To get started just make sure you have mocha installed globally, then run `npm test`.
