@@ -80,12 +80,9 @@ var AuthController = {
       }
       if (user) {
         var token = TokenAuth.issueToken( { uid: user.id, username: user.username, accessLevel: user.accessLevel, type: 'user' } );
-        Token.create({ token: token }).exec(function(err, token){
-          res.json({
-            user: user,
-            token: token
-          });
-
+        res.json({
+          user: user,
+          token: token
         });
       }
     });
